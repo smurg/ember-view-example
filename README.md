@@ -1,7 +1,11 @@
-# Ember-app-example
+# Ember-view-example
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Importante: instalar los paquetes de bower antes de correr la aplicación con ember server.
+
+Para esto correr los comandos:
+
+* npm install
+* bower install
 
 ## Prerequisites
 
