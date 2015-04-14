@@ -1,0 +1,8 @@
+<section {{bind-attr class=":carousel-container"}}>
+  {{#each image_configuration in model}}
+    <div {{bind-attr class=":module-image"}}>
+      <img {{bind-attr src="image_configuration.url"}} width="450px" heigth="450px" alt="image_configuration.name">
+    </div>
+  {{/each}}
+</section>
+<p>there are <span class="badge">{{controller.totalImages}}</span> images </p>
